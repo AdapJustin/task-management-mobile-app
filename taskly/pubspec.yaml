@@ -1,0 +1,45 @@
+name: final_academic_project
+description: A student's Task Manager
+
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.4
+  path_provider: ^2.0.4
+  font_awesome_flutter: ^9.2.0
+  calendar_timeline: ^1.0.4
+  animated_splash_screen: ^1.1.0
+  rflutter_alert: ^2.0.4
+  flutter_hsvcolor_picker: ^1.2.1
+  sqflite: ^2.0.0+4
+  google_mobile_ads: ^0.13.0
+  syncfusion_flutter_datepicker: ^19.3.55
+  carousel_slider: ^4.0.0
+  flutter_staggered_grid_view: ^0.4.0-nullsafety.3
+  animations: ^2.0.2
+  percent_indicator: ^2.1.9
+  flutter_local_notifications: ^1.4.4+2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/Sound/
+    - assets/Images/
